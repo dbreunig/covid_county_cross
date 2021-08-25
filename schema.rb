@@ -14,6 +14,12 @@ Sequel.migration do
       Integer :version, :default=>0, :null=>false
     end
     
+    create_table(:vaccine_runs) do
+      primary_key :id
+      TrueClass :counties_loaded, :default=>false
+      TrueClass :states_loaded, :default=>false
+    end
+    
     create_table(:states, :ignore_index_errors=>true) do
       String :fips, :size=>2, :null=>false
       String :name, :size=>255, :null=>false

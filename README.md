@@ -26,8 +26,8 @@ If you have any questions or comments, reach out. If you use this project to cre
 
 - Generating the dataset requires SQLite 3.33.0 or greater.
 
-## Today's Work
+## Next Steps
 
-- Convert the two folders of json into two csvs (redo before launch so you don't miss a day)
-- VAX updater
 - Refactor County Model: incorporate hesitancy, ethnicity, vulnerability
+- Make vax pipeline one pipeline: Get data from github repo, expand it, load it
+- Shapefiles

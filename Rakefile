@@ -34,6 +34,11 @@ namespace :db do
     puts "Vaccine statuses loaded"
   end
 
+  desc "Update temporal data"
+  task :update, [] do |t, args|
+    require_relative 'loaders/update_vax_status'
+  end
+
   desc "Bounce and load db"
   task :bounce, [] do |t, args|
     Rake::Task["db:destroy"].invoke
