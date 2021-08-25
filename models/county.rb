@@ -5,9 +5,10 @@ class County < Sequel::Model
 
   one_to_many :county_dexes, order: :date
   one_to_many :county_cases, order: :date
-  one_to_many :county_ethnicity
-  one_to_many :county_hesitancy
-  one_to_many :county_vulnerability
+  one_to_many :county_vaccine_status, order: :date
+  one_to_one :county_ethnicity
+  one_to_one :county_hesitancy
+  one_to_one :county_vulnerability
 
   dataset_module do
     def all_cases

@@ -1,0 +1,1159 @@
+  1. "Date"
+
+	Type of data:          Date
+	Contains null values:  False
+	Unique values:         164
+	Smallest value:        2021-03-10
+	Largest value:         2021-08-23
+	Most common values:    2021-03-18 (208x)
+	                       2021-05-16 (208x)
+	                       2021-03-22 (156x)
+	                       2021-03-25 (156x)
+	                       2021-04-07 (156x)
+
+  2. "Location"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         52
+	Smallest value:        1
+	Largest value:         72
+	Sum:                   359368
+	Mean:                  29.788462
+	Median:                29.5
+	StDev:                 16.613168
+	Most common values:    2 (232x)
+	                       1 (232x)
+	                       5 (232x)
+	                       4 (232x)
+	                       6 (232x)
+
+  3. "ShortName"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         52
+	Longest value:         3 characters
+	Most common values:    AKA (232x)
+	                       ALA (232x)
+	                       ARA (232x)
+	                       AZA (232x)
+	                       CAA (232x)
+
+  4. "LongName"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         52
+	Longest value:         20 characters
+	Most common values:    Alaska (232x)
+	                       Alabama (232x)
+	                       Arkansas (232x)
+	                       Arizona (232x)
+	                       California (232x)
+
+  5. "Census2019"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         52
+	Smallest value:        578759
+	Largest value:         39512223
+	Sum:                   76892506344
+	Mean:                  6373715.711538
+	Median:                4342705
+	StDev:                 7231744.087183
+	Most common values:    731545 (232x)
+	                       4903185 (232x)
+	                       3017804 (232x)
+	                       7278717 (232x)
+	                       39512223 (232x)
+
+  6. "date_type"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         1
+	Longest value:         6 characters
+	Most common values:    Report (12064x)
+
+  7. "Doses_Distributed"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         6078
+	Smallest value:        259495
+	Largest value:         53702585
+	Sum:                   74879672340
+	Mean:                  6206869.391578
+	Median:                3715320
+	StDev:                 7735895.745909
+	Most common values:    955460 (9x)
+	                       664790 (8x)
+	                       1061435 (8x)
+	                       1109635 (8x)
+	                       1889805 (8x)
+
+  8. "Doses_Administered"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8493
+	Smallest value:        190180
+	Largest value:         47250789
+	Sum:                   61469932159
+	Mean:                  5095319.310262
+	Median:                2968699
+	StDev:                 6483481.425189
+	Most common values:    825322 (5x)
+	                       351093 (4x)
+	                       1390066 (4x)
+	                       929862 (4x)
+	                       2755436 (4x)
+
+  9. "Dist_Per_100K"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5866
+	Smallest value:        34045
+	Largest value:         159511
+	Sum:                   1175104507
+	Mean:                  97405.87757
+	Median:                100934.5
+	StDev:                 28232.463108
+	Most common values:    87236 (12x)
+	                       98172 (10x)
+	                       153121 (9x)
+	                       87259 (8x)
+	                       88117 (8x)
+
+ 10. "Admin_Per_100K"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8067
+	Smallest value:        21124
+	Largest value:         141015
+	Sum:                   963782344
+	Mean:                  79889.120027
+	Median:                81296.5
+	StDev:                 26485.823911
+	Most common values:    47884 (7x)
+	                       89702 (7x)
+	                       42681 (6x)
+	                       98799 (6x)
+	                       28350 (5x)
+
+ 11. "Administered_Moderna"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8464
+	Smallest value:        96559
+	Largest value:         18525495
+	Sum:                   25799372361
+	Mean:                  2138542.138677
+	Median:                1302412
+	StDev:                 2652961.627127
+	Most common values:    386693 (5x)
+	                       161137 (4x)
+	                       714600 (4x)
+	                       469452 (4x)
+	                       1270316 (4x)
+
+ 12. "Administered_Pfizer"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8429
+	Smallest value:        91527
+	Largest value:         26962549
+	Sum:                   33430844657
+	Mean:                  2771124.39133
+	Median:                1563590
+	StDev:                 3588048.48853
+	Most common values:    833562 (5x)
+	                       411322 (5x)
+	                       1325030 (5x)
+	                       181360 (5x)
+	                       1377379 (5x)
+
+ 13. "Administered_Janssen"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8236
+	Smallest value:        0
+	Largest value:         1750427
+	Sum:                   2188156392
+	Mean:                  181379.011273
+	Median:                97339
+	StDev:                 253296.83699
+	Most common values:    3861 (7x)
+	                       56764 (7x)
+	                       2 (6x)
+	                       23223 (6x)
+	                       61529 (6x)
+
+ 14. "Administered_Unk_Manuf"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         3062
+	Smallest value:        0
+	Largest value:         93766
+	Sum:                   51558749
+	Mean:                  4273.768982
+	Median:                539
+	StDev:                 14166.203411
+	Most common values:    0 (961x)
+	                       13 (192x)
+	                       475 (154x)
+	                       329 (152x)
+	                       93760 (149x)
+
+ 15. "Administered_Dose1_Recip"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8570
+	Smallest value:        105267
+	Largest value:         26844943
+	Sum:                   35311334489
+	Mean:                  2927000.537881
+	Median:                1702401
+	StDev:                 3702463.319874
+	Most common values:    1529482 (4x)
+	                       213432 (4x)
+	                       912663 (4x)
+	                       615670 (4x)
+	                       1716937 (4x)
+
+ 16. "Administered_Dose1_Pop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         615
+	Smallest value:        13.4
+	Largest value:         84.9
+	Sum:                   549767.5
+	Mean:                  45.570913
+	Median:                45.7
+	StDev:                 13.464571
+	Most common values:    50.7 (51x)
+	                       45.1 (48x)
+	                       46.3 (48x)
+	                       45.6 (46x)
+	                       52.1 (46x)
+
+ 17. "Administered_Dose2_Pop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         541
+	Smallest value:        7.2
+	Largest value:         61.6
+	Sum:                   401879.9
+	Mean:                  33.312326
+	Median:                34.15
+	StDev:                 13.074614
+	Most common values:    36.8 (58x)
+	                       37.1 (57x)
+	                       40.7 (54x)
+	                       35.9 (53x)
+	                       37 (53x)
+
+ 18. "Administered_Dose1_Recip_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8568
+	Smallest value:        105244
+	Largest value:         24913154
+	Sum:                   34006016000
+	Mean:                  2818801.061008
+	Median:                1645380.5
+	StDev:                 3527307.759073
+	Most common values:    210933 (4x)
+	                       911960 (4x)
+	                       614775 (4x)
+	                       1711550 (4x)
+	                       9074577 (4x)
+
+ 19. "Administered_Dose1_Recip_18PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         676
+	Smallest value:        16.3
+	Largest value:         99.9
+	Sum:                   679379.8
+	Mean:                  56.314639
+	Median:                57.2
+	StDev:                 15.188123
+	Most common values:    52.2 (49x)
+	                       54.3 (46x)
+	                       54.8 (45x)
+	                       62.9 (43x)
+	                       53.4 (41x)
+
+ 20. "Administered_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8481
+	Smallest value:        190087
+	Largest value:         43847675
+	Sum:                   59306757763
+	Mean:                  4916011.087782
+	Median:                2879482.5
+	StDev:                 6181521.116461
+	Most common values:    814010 (5x)
+	                       347277 (4x)
+	                       1389216 (4x)
+	                       928862 (4x)
+	                       2746409 (4x)
+
+ 21. "Admin_Per_100k_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8124
+	Smallest value:        25732
+	Largest value:         164229
+	Sum:                   1193584737
+	Mean:                  98937.726873
+	Median:                102144.5
+	StDev:                 30356.458767
+	Most common values:    46431 (6x)
+	                       130827 (6x)
+	                       40380 (5x)
+	                       51668 (5x)
+	                       47364 (5x)
+
+ 22. "Administered_Dose1_Recip_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8532
+	Smallest value:        49402
+	Largest value:         5675577
+	Sum:                   10424750582
+	Mean:                  871634.664047
+	Median:                589973
+	StDev:                 974560.674545
+	Most common values:    None (104x)
+	                       248382 (4x)
+	                       63924 (4x)
+	                       475774 (4x)
+	                       308488 (4x)
+
+ 23. "Administered_Dose1_Recip_65PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         487
+	Smallest value:        0
+	Largest value:         109
+	Sum:                   992599.7
+	Mean:                  82.634008
+	Median:                83.2
+	StDev:                 9.554492
+	Most common values:    99.9 (404x)
+	                       82 (74x)
+	                       83.3 (71x)
+	                       82.6 (68x)
+	                       82.7 (68x)
+
+ 24. "Administered_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8409
+	Smallest value:        96772
+	Largest value:         10218819
+	Sum:                   19082609308
+	Mean:                  1588628.81352
+	Median:                1070430
+	StDev:                 1771208.220281
+	Most common values:    None (52x)
+	                       1835145 (5x)
+	                       2084172 (5x)
+	                       649946 (5x)
+	                       306222 (5x)
+
+ 25. "Admin_Per_100k_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         7928
+	Smallest value:        0
+	Largest value:         288380
+	Sum:                   1826865369
+	Mean:                  152086.694056
+	Median:                156840.5
+	StDev:                 23780.761452
+	Most common values:    None (52x)
+	                       152302 (6x)
+	                       106919 (5x)
+	                       100004 (5x)
+	                       113413 (5x)
+
+ 26. "Administered_Dose2_Recip"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8568
+	Smallest value:        54423
+	Largest value:         20010885
+	Sum:                   25401075544
+	Mean:                  2105526.818966
+	Median:                1201399
+	StDev:                 2706437.237609
+	Most common values:    136926 (4x)
+	                       509056 (4x)
+	                       313569 (4x)
+	                       957494 (4x)
+	                       4372408 (4x)
+
+ 27. "Administered_Dose2_Recip_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8557
+	Smallest value:        54421
+	Largest value:         18544754
+	Sum:                   24562602412
+	Mean:                  2036024.735743
+	Median:                1176479
+	StDev:                 2582860.035245
+	Most common values:    1263466 (6x)
+	                       131198 (4x)
+	                       135612 (4x)
+	                       508895 (4x)
+	                       313434 (4x)
+
+ 28. "Administered_Dose2_Recip_18PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         606
+	Smallest value:        9.4
+	Largest value:         70.4
+	Sum:                   498858.4
+	Mean:                  41.350995
+	Median:                43.4
+	StDev:                 15.249064
+	Most common values:    52.7 (52x)
+	                       49.1 (50x)
+	                       45.1 (49x)
+	                       44.4 (46x)
+	                       46.2 (45x)
+
+ 29. "Distributed_Per_100k_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5945
+	Smallest value:        45024
+	Largest value:         194907
+	Sum:                   1505785434
+	Mean:                  124816.431863
+	Median:                130726.5
+	StDev:                 35227.278825
+	Most common values:    126006 (10x)
+	                       131916 (10x)
+	                       148651 (9x)
+	                       187351 (9x)
+	                       66931 (8x)
+
+ 30. "Distributed_Moderna"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5685
+	Smallest value:        139700
+	Largest value:         21505140
+	Sum:                   31515835360
+	Mean:                  2612386.883289
+	Median:                1640250
+	StDev:                 3161635.118047
+	Most common values:    384800 (17x)
+	                       1319700 (11x)
+	                       345500 (11x)
+	                       197600 (11x)
+	                       663200 (11x)
+
+ 31. "Distributed_Pfizer"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         4611
+	Smallest value:        113295
+	Largest value:         29581785
+	Sum:                   39274407780
+	Mean:                  3255504.623674
+	Median:                1900980
+	StDev:                 4142111.709581
+	Most common values:    2222970 (36x)
+	                       1974570 (28x)
+	                       2166450 (22x)
+	                       413985 (21x)
+	                       466245 (21x)
+
+ 32. "Distributed_Janssen"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         1842
+	Smallest value:        6500
+	Largest value:         2615800
+	Sum:                   4089429200
+	Mean:                  338977.884615
+	Median:                188600
+	StDev:                 445410.6514
+	Most common values:    61600 (119x)
+	                       190000 (119x)
+	                       34000 (113x)
+	                       69600 (110x)
+	                       59300 (109x)
+
+ 33. "Distributed_Unk_Manuf"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Unique values:         1
+	Most common values:    False (12064x)
+
+ 34. "Series_Complete_Moderna"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8541
+	Smallest value:        25638
+	Largest value:         8153261
+	Sum:                   11022400915
+	Mean:                  913660.553299
+	Median:                538370
+	StDev:                 1149042.971361
+	Most common values:    442277 (6x)
+	                       329693 (5x)
+	                       152473 (4x)
+	                       364495 (4x)
+	                       60821 (4x)
+
+ 35. "Series_Complete_Pfizer"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8550
+	Smallest value:        28777
+	Largest value:         11843933
+	Sum:                   14363982510
+	Mean:                  1190648.417606
+	Median:                648389
+	StDev:                 1559335.094145
+	Most common values:    76098 (4x)
+	                       249866 (4x)
+	                       154908 (4x)
+	                       529440 (4x)
+	                       2235914 (4x)
+
+ 36. "Series_Complete_Janssen"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8403
+	Smallest value:        6
+	Largest value:         1739682
+	Sum:                   2158274590
+	Mean:                  178902.071452
+	Median:                95516.5
+	StDev:                 248975.705883
+	Most common values:    2862 (6x)
+	                       17861 (5x)
+	                       22893 (5x)
+	                       10639 (5x)
+	                       127821 (5x)
+
+ 37. "Series_Complete_Unk_Manuf"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         2088
+	Smallest value:        0
+	Largest value:         23239
+	Sum:                   13598104
+	Mean:                  1127.163793
+	Median:                190.5
+	StDev:                 3165.123606
+	Most common values:    1 (343x)
+	                       0 (142x)
+	                       26 (124x)
+	                       5 (112x)
+	                       18 (106x)
+
+ 38. "Series_Complete_Moderna_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8552
+	Smallest value:        25637
+	Largest value:         8128243
+	Sum:                   10976316449
+	Mean:                  909840.55446
+	Median:                538202
+	StDev:                 1138010.512444
+	Most common values:    60767 (4x)
+	                       259151 (4x)
+	                       158603 (4x)
+	                       427672 (4x)
+	                       2135722 (4x)
+
+ 39. "Series_Complete_Pfizer_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8535
+	Smallest value:        28776
+	Largest value:         10403126
+	Sum:                   13557032310
+	Mean:                  1123759.309516
+	Median:                635102.5
+	StDev:                 1441624.437833
+	Most common values:    527203 (5x)
+	                       74838 (4x)
+	                       249723 (4x)
+	                       154792 (4x)
+	                       2232354 (4x)
+
+ 40. "Series_Complete_Janssen_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8383
+	Smallest value:        6
+	Largest value:         1732344
+	Sum:                   2146693603
+	Mean:                  177942.109002
+	Median:                95409
+	StDev:                 246418.089151
+	Most common values:    15370 (6x)
+	                       24944 (5x)
+	                       71987 (5x)
+	                       79199 (5x)
+	                       49970 (5x)
+
+ 41. "Series_Complete_Unk_Manuf_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         2076
+	Smallest value:        0
+	Largest value:         23129
+	Sum:                   13483334
+	Mean:                  1117.650365
+	Median:                185
+	StDev:                 3158.316494
+	Most common values:    1 (345x)
+	                       0 (142x)
+	                       26 (129x)
+	                       5 (112x)
+	                       18 (100x)
+
+ 42. "Series_Complete_Moderna_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8391
+	Smallest value:        11006
+	Largest value:         2329682
+	Sum:                   4151957829
+	Mean:                  347153.664632
+	Median:                237181.5
+	StDev:                 388644.836335
+	Most common values:    None (104x)
+	                       248679 (6x)
+	                       244824 (5x)
+	                       40200 (5x)
+	                       30935 (4x)
+
+ 43. "Series_Complete_Pfizer_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8330
+	Smallest value:        11228
+	Largest value:         2074816
+	Sum:                   4154524811
+	Mean:                  347368.295234
+	Median:                233471
+	StDev:                 372647.648439
+	Most common values:    None (104x)
+	                       28849 (5x)
+	                       57923 (5x)
+	                       107709 (5x)
+	                       118858 (5x)
+
+ 44. "Series_Complete_Janssen_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         7684
+	Smallest value:        2
+	Largest value:         276411
+	Sum:                   377404362
+	Mean:                  31555.548662
+	Median:                17179.5
+	StDev:                 42167.134084
+	Most common values:    None (104x)
+	                       2750 (11x)
+	                       15849 (7x)
+	                       1172 (7x)
+	                       3661 (7x)
+
+ 45. "Series_Complete_Unk_Manuf_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1500
+	Smallest value:        0
+	Largest value:         14757
+	Sum:                   5692515
+	Mean:                  475.962793
+	Median:                91
+	StDev:                 1370.864112
+	Most common values:    0 (574x)
+	                       3 (265x)
+	                       5 (180x)
+	                       4 (171x)
+	                       11 (157x)
+
+ 46. "Series_Complete_Yes"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8562
+	Smallest value:        54738
+	Largest value:         21740639
+	Sum:                   27558256119
+	Mean:                  2284338.206151
+	Median:                1294519
+	StDev:                 2952323.906604
+	Most common values:    335812 (5x)
+	                       138464 (4x)
+	                       533375 (4x)
+	                       324554 (4x)
+	                       978991 (4x)
+
+ 47. "Series_Complete_Pop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         603
+	Smallest value:        7.6
+	Largest value:         68
+	Sum:                   435398.6
+	Mean:                  36.090733
+	Median:                37
+	StDev:                 14.3505
+	Most common values:    39.1 (54x)
+	                       38.7 (50x)
+	                       39.4 (49x)
+	                       39.2 (47x)
+	                       37.2 (46x)
+
+ 48. "Series_Complete_18Plus"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         8563
+	Smallest value:        54736
+	Largest value:         20267233
+	Sum:                   26693525820
+	Mean:                  2212659.633621
+	Median:                1270390
+	StDev:                 2822350.739244
+	Most common values:    446435 (4x)
+	                       137146 (4x)
+	                       533212 (4x)
+	                       324410 (4x)
+	                       976670 (4x)
+
+ 49. "Series_Complete_18PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         678
+	Smallest value:        9.5
+	Largest value:         78.3
+	Sum:                   541574.2
+	Mean:                  44.891761
+	Median:                46.9
+	StDev:                 16.845789
+	Most common values:    50.3 (44x)
+	                       47.1 (43x)
+	                       46.6 (41x)
+	                       43.4 (40x)
+	                       46.8 (40x)
+
+ 50. "Series_Complete_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         8462
+	Smallest value:        25790
+	Largest value:         4581411
+	Sum:                   8689579635
+	Mean:                  726553.481187
+	Median:                486943
+	StDev:                 796633.485006
+	Most common values:    None (104x)
+	                       160707 (5x)
+	                       52562 (4x)
+	                       297299 (4x)
+	                       157553 (4x)
+
+ 51. "Series_Complete_65PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         719
+	Smallest value:        0
+	Largest value:         99.9
+	Sum:                   839320.9
+	Mean:                  70.177333
+	Median:                73.7
+	StDev:                 14.780398
+	Most common values:    None (104x)
+	                       81.5 (73x)
+	                       77.5 (63x)
+	                       70.4 (61x)
+	                       74.3 (60x)
+
+ 52. "Administered_Fed_LTC"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (12064x)
+
+ 53. "Administered_Fed_LTC_Dose1"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (12064x)
+
+ 54. "Administered_Fed_LTC_Dose2"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (12064x)
+
+ 55. "Series_Complete_FedLTC"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (12064x)
+
+ 56. "Distributed_Per_100k_65Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5901
+	Smallest value:        203349
+	Largest value:         1288880
+	Sum:                   6963919568
+	Mean:                  595206.800684
+	Median:                599375.5
+	StDev:                 177918.523725
+	Most common values:    None (364x)
+	                       570796 (10x)
+	                       764130 (9x)
+	                       554708 (8x)
+	                       1215250 (8x)
+
+ 57. "Administered_65Plus_Entity"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         4844
+	Smallest value:        127886
+	Largest value:         9953268
+	Sum:                   12029984638
+	Mean:                  1664358.693691
+	Median:                1129663
+	StDev:                 1840650.089779
+	Most common values:    None (4836x)
+	                       611596 (10x)
+	                       2268860 (9x)
+	                       624778 (8x)
+	                       569421 (8x)
+
+ 58. "Census2019_12PlusPop"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         54
+	Smallest value:        490721
+	Largest value:         33646265
+	Sum:                   39340839551
+	Mean:                  5442838.897482
+	Median:                3726968
+	StDev:                 6152720.507561
+	Most common values:    None (4836x)
+	                       608877 (139x)
+	                       4186880 (139x)
+	                       2557248 (139x)
+	                       6206060 (139x)
+
+ 59. "Administered_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5218
+	Smallest value:        0
+	Largest value:         47122576
+	Sum:                   44660801015
+	Mean:                  6178860.129358
+	Median:                3788878.5
+	StDev:                 7412816.720909
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       692214 (5x)
+	                       825239 (5x)
+	                       586548 (4x)
+
+ 60. "Admin_Per_100k_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5006
+	Smallest value:        0
+	Largest value:         159671
+	Sum:                   810576202
+	Mean:                  112143.912839
+	Median:                111299
+	StDev:                 20407.520744
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       104337 (5x)
+	                       66951 (5x)
+	                       89935 (5x)
+
+ 61. "Distributed_Per_100k_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         3582
+	Smallest value:        0
+	Largest value:         184623
+	Sum:                   968747936
+	Mean:                  134027.107914
+	Median:                132430
+	StDev:                 19591.992681
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       173420 (9x)
+	                       104322 (8x)
+	                       131490 (8x)
+
+ 62. "Administered_Dose1_Recip_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5286
+	Smallest value:        0
+	Largest value:         26765577
+	Sum:                   24842865179
+	Mean:                  3437031.707111
+	Median:                2144439
+	StDev:                 4175659.095504
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       1454793 (4x)
+	                       11878116 (4x)
+	                       1352194 (4x)
+
+ 63. "Administered_Dose1_Recip_12PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         473
+	Smallest value:        0
+	Largest value:         96.2
+	Sum:                   448095.5
+	Mean:                  61.994397
+	Median:                61.5
+	StDev:                 11.196753
+	Most common values:    None (4836x)
+	                       58 (38x)
+	                       56.8 (38x)
+	                       53.2 (36x)
+	                       57.1 (32x)
+
+ 64. "Administered_Dose2_Recip_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5285
+	Smallest value:        0
+	Largest value:         19962628
+	Sum:                   19258742152
+	Mean:                  2664463.496403
+	Median:                1625072
+	StDev:                 3133686.311897
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       253022 (4x)
+	                       1203825 (4x)
+	                       1520832 (4x)
+
+ 65. "Administered_Dose2_Recip_12PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         405
+	Smallest value:        0
+	Largest value:         69.8
+	Sum:                   352278.9
+	Mean:                  48.738088
+	Median:                48.3
+	StDev:                 9.412608
+	Most common values:    None (4836x)
+	                       43.5 (49x)
+	                       42.4 (47x)
+	                       50.3 (42x)
+	                       47.3 (41x)
+
+ 66. "Series_Complete_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5279
+	Smallest value:        0
+	Largest value:         21692055
+	Sum:                   20916729921
+	Mean:                  2893847.526425
+	Median:                1759257
+	StDev:                 3416975.743712
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       279915 (4x)
+	                       1281044 (4x)
+	                       1643032 (4x)
+
+ 67. "Series_Complete_12PlusPop_Pct"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         457
+	Smallest value:        0
+	Largest value:         77
+	Sum:                   382180.6
+	Mean:                  52.875014
+	Median:                52.6
+	StDev:                 10.398839
+	Most common values:    None (4836x)
+	                       44.9 (38x)
+	                       45 (37x)
+	                       46.8 (36x)
+	                       44.7 (36x)
+
+ 68. "Series_Complete_Moderna_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5276
+	Smallest value:        0
+	Largest value:         8152837
+	Sum:                   8211469327
+	Mean:                  1136063.824986
+	Median:                741813
+	StDev:                 1322009.515356
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       105448 (4x)
+	                       579053 (4x)
+	                       662429 (4x)
+
+ 69. "Series_Complete_Pfizer_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5266
+	Smallest value:        0
+	Largest value:         11796110
+	Sum:                   11035976195
+	Mean:                  1526836.772966
+	Median:                911703
+	StDev:                 1812520.374405
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       1263129 (4x)
+	                       1195864 (4x)
+	                       147503 (4x)
+
+ 70. "Series_Complete_Janssen_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5219
+	Smallest value:        0
+	Largest value:         1739353
+	Sum:                   1659138386
+	Mean:                  229543.218871
+	Median:                134090.5
+	StDev:                 286100.045702
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       39192 (5x)
+	                       16246 (4x)
+	                       60002 (4x)
+
+ 71. "Series_Complete_Unk_Manuf_12Plus"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1784
+	Smallest value:        0
+	Largest value:         23238
+	Sum:                   10145967
+	Mean:                  1403.703237
+	Median:                239.5
+	StDev:                 3469.879397
+	Most common values:    None (4836x)
+	                       1 (202x)
+	                       18 (65x)
+	                       10 (52x)
+	                       30 (52x)
+
+ 72. "Administered_12Plus_Entity"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         4862
+	Smallest value:        0
+	Largest value:         46253356
+	Sum:                   43333032916
+	Mean:                  5995162.273935
+	Median:                3680443.5
+	StDev:                 7267148.112245
+	Most common values:    None (4836x)
+	                       0 (20x)
+	                       3036592 (10x)
+	                       7624877 (9x)
+	                       1614097 (8x)
+
+ 73. "Count_70pct_vacc"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1
+	Most common values:    None (12064x)
+
+Row count: 12064

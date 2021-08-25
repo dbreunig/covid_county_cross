@@ -17,7 +17,7 @@ If you have any questions or comments, reach out. If you use this project to cre
 
 ## Data Sources to Come
 
-- Vaccination rates
+- Vaccination rates:
 - County & State Shapefiles as WKT columns (currently in `loaders/source_data`)
 - [Hospitalization rates and other figures](https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u)
 - [LEX](https://github.com/COVIDExposureIndices/COVIDExposureIndices), estimating travel rates between counties and states
@@ -25,3 +25,9 @@ If you have any questions or comments, reach out. If you use this project to cre
 ## Notes
 
 - Generating the dataset requires SQLite 3.33.0 or greater.
+
+## Today's Work
+
+- Convert the two folders of json into two csvs (redo before launch so you don't miss a day)
+- VAX updater
+- Refactor County Model: incorporate hesitancy, ethnicity, vulnerability

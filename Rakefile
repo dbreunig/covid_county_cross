@@ -29,6 +29,9 @@ namespace :db do
     require_relative 'loaders/load_census_figures'
     puts "Census statistics loaded"
     require_relative 'loaders/calculate_case_changes'
+    puts "Daily case changes calculated"
+    require_relative 'loaders/load_vax_backfill'
+    puts "Vaccine statuses loaded"
   end
 
   desc "Bounce and load db"

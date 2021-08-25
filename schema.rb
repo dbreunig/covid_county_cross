@@ -60,6 +60,54 @@ Sequel.migration do
       index [:state_id, :date]
     end
     
+    create_table(:state_vaccine_statuses, :ignore_index_errors=>true) do
+      primary_key :id
+      Date :date, :null=>false
+      Integer :doses_distributed, :null=>false
+      Integer :doses_administered, :null=>false
+      Integer :dist_per_100k, :null=>false
+      Integer :admin_per_100k, :null=>false
+      Integer :administered_moderna, :null=>false
+      Integer :administered_pfizer, :null=>false
+      Integer :administered_janssen, :null=>false
+      Integer :administered_unk_manf, :null=>false
+      Integer :administered_dose_1_recip, :null=>false
+      Float :administered_dose_1_pop_pct, :null=>false
+      Float :administered_dose_2_pop_pct, :null=>false
+      Integer :administered_dose_1_recip_18_plus, :null=>false
+      Float :administered_dose_1_recip_18_plus_pop_pct, :null=>false
+      Integer :administered_18_plus, :null=>false
+      Integer :administered_per_100k_18_plus, :null=>false
+      Integer :administered_dose_1_recip_65_plus
+      Float :administered_dose_1_recip_65_plus_pop_pct
+      Integer :administered_65_plus
+      Integer :administered_per_100k_65_plus
+      Integer :administered_dose_2_recip, :null=>false
+      Integer :administered_dose_2_recip_18_plus, :null=>false
+      Integer :administered_dose_2_recip_18_plus_pop_pct, :null=>false
+      Integer :series_complete_moderna, :null=>false
+      Integer :series_complete_pfizer, :null=>false
+      Integer :series_complete_janssen, :null=>false
+      Integer :series_complete_unk_manuf, :null=>false
+      Integer :series_complete
+      Float :series_complete_pop_pct
+      Integer :series_complete_18_plus
+      Float :series_complete_18_plus_pop_pct
+      Integer :series_complete_65_plus
+      Float :series_complete_65_plus_pop_pct
+      Integer :administered_12_plus
+      Integer :administered_per_100k_12_plus
+      Integer :administered_dose_1_recip_12_plus
+      Float :administered_dose_1_recip_12_plus_pop_pct
+      Integer :administered_dose_2_recip_12_plus
+      Float :administered_dose_2_recip_12_plus_pop_pct
+      Integer :series_complete_12_plus
+      Float :series_complete_12_plus_pop_pct
+      foreign_key :state_id, :states, :type=>String, :size=>2
+      
+      index [:state_id, :date]
+    end
+    
     create_table(:county_cases, :ignore_index_errors=>true) do
       primary_key :id
       Date :date, :null=>false
@@ -99,6 +147,30 @@ Sequel.migration do
       Float :estimated_hesitant_or_unsure, :null=>false
       Float :estimated_strongly_hesitant, :null=>false
       foreign_key :county_id, :counties, :type=>String, :size=>5
+    end
+    
+    create_table(:county_vaccine_statuses, :ignore_index_errors=>true) do
+      primary_key :id
+      Date :date, :null=>false
+      Integer :series_complete_18_plus
+      Float :series_complete_18_plus_pop_pct
+      Integer :series_complete_65_plus
+      Float :series_complete_65_plus_pop_pct
+      Integer :series_complete
+      Float :series_complete_pop_pct
+      Integer :series_complete_12_plus
+      Float :series_complete_12_plus_pop_pct
+      Integer :administered_dose_1_recip
+      Integer :administered_dose_1_recip_12_plus
+      Integer :administered_dose_1_recip_18_plus
+      Integer :administered_dose_1_recip_65_plus
+      Float :administered_dose_1_pop_pct
+      Float :administered_dose_1_recip_12_plus_pop_pct
+      Float :administered_dose_1_recip_18_plus_pop_pct
+      Float :administered_dose_1_recip_65_plus_pop_pct
+      foreign_key :county_id, :counties, :type=>String, :size=>5
+      
+      index [:county_id, :date]
     end
     
     create_table(:county_vulnerabilities) do
