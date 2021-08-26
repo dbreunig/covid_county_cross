@@ -37,6 +37,19 @@ Sequel.migration do
       String :fips, :size=>5, :null=>false
       String :name, :size=>255, :null=>false
       Integer :population
+      Float :estimated_hesitant
+      Float :estimated_hesitant_or_unsure
+      Float :estimated_strongly_hesitant
+      Float :svi
+      String :svi_category, :size=>255
+      Float :level_of_concern
+      String :loc_category, :size=>255
+      Float :percent_hispanic
+      Float :percent_native_american
+      Float :percent_asian
+      Float :percent_black
+      Float :percent_api
+      Float :percent_white
       foreign_key :state_id, :states, :type=>String, :size=>2
       foreign_key :region_id, :regions
       foreign_key :division_id, :divisions
@@ -126,17 +139,6 @@ Sequel.migration do
       index [:county_id, :date]
     end
     
-    create_table(:county_ethnicities) do
-      primary_key :id
-      Float :percent_hispanic, :null=>false
-      Float :percent_native_american, :null=>false
-      Float :percent_asian, :null=>false
-      Float :percent_black, :null=>false
-      Float :percent_api, :null=>false
-      Float :percent_white, :null=>false
-      foreign_key :county_id, :counties, :type=>String, :size=>5
-    end
-    
     create_table(:county_exposures, :ignore_index_errors=>true) do
       primary_key :id
       Date :date, :null=>false
@@ -145,14 +147,6 @@ Sequel.migration do
       foreign_key :county_id, :counties, :type=>String, :size=>5
       
       index [:county_id, :date]
-    end
-    
-    create_table(:county_hesitancies) do
-      primary_key :id
-      Float :estimated_hesitant, :null=>false
-      Float :estimated_hesitant_or_unsure, :null=>false
-      Float :estimated_strongly_hesitant, :null=>false
-      foreign_key :county_id, :counties, :type=>String, :size=>5
     end
     
     create_table(:county_vaccine_statuses, :ignore_index_errors=>true) do
@@ -177,15 +171,6 @@ Sequel.migration do
       foreign_key :county_id, :counties, :type=>String, :size=>5
       
       index [:county_id, :date]
-    end
-    
-    create_table(:county_vulnerabilities) do
-      primary_key :id
-      Float :svi
-      String :svi_category, :size=>255
-      Float :level_of_concern
-      String :loc_category, :size=>255
-      foreign_key :county_id, :counties, :type=>String, :size=>5
     end
   end
 end

@@ -24,8 +24,8 @@ namespace :db do
     puts "DEX loaded"
     require_relative 'loaders/load_cases_and_deaths'
     puts "Cases and deaths loaded"
-    require_relative 'loaders/load_vaccine_hesitancy'
-    puts "Vaccine hesitancy loaded"
+    require_relative 'loaders/load_county_hesitancy'
+    puts "County hesitancy loaded"
     require_relative 'loaders/load_census_figures'
     puts "Census statistics loaded"
     require_relative 'loaders/calculate_case_changes'

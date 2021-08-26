@@ -61,7 +61,6 @@ unless run_id.states_loaded
       ], 
       record
     )
-    puts "Updated vax status for #{the_state.name}"    
   end
   run_id.states_loaded = true;
   run_id.save

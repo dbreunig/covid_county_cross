@@ -5,7 +5,7 @@ This pipeline for creating, loading, and updating a SQLite database is designed 
 In addition to adding additional sources of data (listed below), I'll be adding documentation, including detailed descriptions of each table and examples of usage over the coming days.
 
 If you want to play with the data now and aren't familiar with SQLite, I'd recommend [downloading the covid_counties.db file](https://drive.google.com/file/d/1S017R1HEwXtRURmOr_eUm09xTrTXGVeh/view?usp=sharing) and playing around with [Datasette](https://datasette.io/). (I'll be hosting the database somewhere a little more resilient shortly.)
-
+sq
 If you have any questions or comments, reach out. If you use this project to create something, also let me know. I'd be excited to plug your work here.
 
 ## Datasources
@@ -27,7 +27,6 @@ If you have any questions or comments, reach out. If you use this project to cre
 
 ## Next Steps
 
-- Refactor County Model: incorporate hesitancy, ethnicity, vulnerability
 - Make vax pipeline one pipeline: Get data from github repo, expand it, load it
 - Hospitalization rates
 - Shapefiles
