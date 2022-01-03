@@ -15,9 +15,7 @@ state_cases.map! { |h| h.slice('date','fips','cases','deaths')}
 state_cases.map!(&:values)
 state_cases.map! do |r| 
   next unless r[1] # Some fips codes are missing
-  next if r[1] == "78" # Virgin Islands
-  next if r[1] == "69" # Virgin Islands
-  next if r[1] == "66" # Virgin Islands
+  next if ["78", "69", "66", "60", "03", "07", "81", "64", "14", "84", "86", "67", "89", "68", "71", "76", "43", "72", "74", "52"].include? r[1]
 
   r[0] = Date.strptime(r[0], '%Y-%m-%d')     # Format the date
   r[1] = r[1].length < 2 ? "0#{r[1]}" : r[1]  # Fix the FIPS
@@ -36,9 +34,7 @@ county_cases.map! { |h| h.slice('date','fips','cases','deaths')}
 county_cases.map!(&:values)
 county_cases.map! do |r| 
   next unless r[1] # Some fips codes are missing
-  next if r[1][0..1] == '78'
-  next if r[1][0..1] == '66'
-  next if r[1][0..1] == '69'
+  next if ["78", "69", "66", "60", "03", "07", "81", "64", "14", "84", "86", "67", "89", "68", "71", "76", "43", "72", "74", "52"].include? r[1][0..1]
   next if r[1] == "02997" # A multicounty area in alaska.
   next if r[1] == "02998" # An out of state area in alaska
   r[0] = Date.strptime(r[0], '%Y-%m-%d')     # Format the date
